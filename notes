@@ -1,0 +1,6 @@
+singleton (Default) Single bean definition for a single object instance per container.
+prototype Single bean definition for multiple instances.
+request Single bean definition for a single HTTP request.
+session Single bean definition for the HTTP session.
+global-session Single bean definition for the global HTTP session. Typically only valid when used in portlet context.
+application Single bean definition for the entire application bound to the lifecycle of a ServletContext
